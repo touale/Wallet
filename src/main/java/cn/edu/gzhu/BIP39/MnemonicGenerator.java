@@ -4,7 +4,7 @@ import cn.edu.gzhu.BIP39.wordlists.WordList;
 
 import java.util.Arrays;
 
-import static cn.edu.gzhu.BIP39.Util.ByteUtils.next11Bits;
+import static cn.edu.gzhu.BIP39.util.ByteUtils.next11Bits;
 import static cn.edu.gzhu.BIP39.encrypt.sha256.Sha256.sha256;
 
 /**
