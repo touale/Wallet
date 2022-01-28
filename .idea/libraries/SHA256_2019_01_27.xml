@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SHA256-2019.01.27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/SHA256-2019.01.27.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

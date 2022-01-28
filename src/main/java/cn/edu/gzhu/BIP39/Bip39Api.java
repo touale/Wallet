@@ -14,7 +14,7 @@ import static cn.edu.gzhu.BIP39.util.ByteUtils.bytes2Hex;
  */
 public class Bip39Api {
 
-    public void apiTest_MnemonicGenerator() {
+    public static void apiTest_MnemonicGenerator() {
         StringBuilder sb = new StringBuilder();
         byte[] entropy = new byte[Words.TWELVE.byteLength()];
         new SecureRandom().nextBytes(entropy);
@@ -23,11 +23,15 @@ public class Bip39Api {
         System.out.println(sb.toString());
     }
 
-    public void apiTest_SeedCalculator() {
+    public static void apiTest_SeedCalculator() {
         byte[] seed = new SeedCalculator().calculateSeed(
-                "biology burden bike luxury connect height chapter jeans ready exhibit case almost",
-                "123456");
+                "eye swallow oxygen pistol install ahead blouse impact library keen judge supply","");
         System.out.println(bytes2Hex(seed));
+    }
+
+    public static void main(String[] args) {
+        apiTest_MnemonicGenerator();
+        apiTest_SeedCalculator();
     }
 
 }

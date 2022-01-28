@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="utils-3.0.1-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/utils-3.0.1-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
