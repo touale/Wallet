@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="crypto-3.0.1-android">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/crypto-3.0.1-android.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

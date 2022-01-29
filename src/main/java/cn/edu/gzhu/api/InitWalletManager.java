@@ -36,9 +36,7 @@ public class InitWalletManager {
 
     public String mnemonicToSeed(String mnemonic) {
         /**
-         绝大多数的钱包创建软件默认passphrase为空
-         若不为空可致钱包与其他钱包软件不兼容
-         故规范使用为null
+         Most wallet software defaults to empty passphrase
          */
         byte[] seed = new SeedCalculator().calculateSeed(
                 mnemonic, "");

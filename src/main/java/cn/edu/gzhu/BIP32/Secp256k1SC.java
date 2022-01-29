@@ -21,9 +21,10 @@
 
 package cn.edu.gzhu.BIP32;
 
-import org.spongycastle.asn1.x9.X9ECParameters;
-import org.spongycastle.crypto.ec.CustomNamedCurves;
-import org.spongycastle.math.ec.ECPoint;
+import org.bouncycastle.asn1.x9.X9ECParameters;
+import org.bouncycastle.crypto.ec.CustomNamedCurves;
+import org.bouncycastle.math.ec.ECPoint;
+
 
 import java.math.BigInteger;
 

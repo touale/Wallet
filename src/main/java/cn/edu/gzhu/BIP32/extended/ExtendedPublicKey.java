@@ -29,8 +29,9 @@ import io.github.novacrypto.bip32.derivation.CkdFunction;
 import io.github.novacrypto.bip32.derivation.CkdFunctionDerive;
 import io.github.novacrypto.bip32.derivation.Derivation;
 import io.github.novacrypto.bip32.derivation.Derive;
-import org.spongycastle.math.ec.ECPoint;
-import org.spongycastle.util.encoders.Hex;
+import org.bouncycastle.math.ec.ECPoint;
+import org.bouncycastle.util.encoders.Hex;
+
 
 import java.math.BigInteger;
 

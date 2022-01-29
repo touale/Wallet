@@ -1,9 +1,11 @@
 package cn.edu.gzhu.BIP39.encrypt.sha512;
 
-import org.spongycastle.crypto.PBEParametersGenerator;
-import org.spongycastle.crypto.digests.SHA512Digest;
-import org.spongycastle.crypto.generators.PKCS5S2ParametersGenerator;
-import org.spongycastle.crypto.params.KeyParameter;
+
+import org.bouncycastle.crypto.PBEParametersGenerator;
+import org.bouncycastle.crypto.digests.SHA512Digest;
+import org.bouncycastle.crypto.generators.PKCS5S2ParametersGenerator;
+import org.bouncycastle.crypto.params.KeyParameter;
+
 /**
  * @author Touale
  * @description SpongyCastlePBKDF2WithHmacSHA512
